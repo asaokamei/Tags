@@ -23,6 +23,7 @@ echo $tags->a( 'link' )->href( 'tags.php' );
 
 ####nested/structured tags: ul > li
 
+```PHP
 $ul = $tags->ul(
   $tags->li( 'list #1' ),
   $tags->li( $tags->img()->src( 'img.gif' ) ),
@@ -36,6 +37,7 @@ echo $ul;
     just a text
 </ul>
 */
+```
 
 one object for a tag.
 
